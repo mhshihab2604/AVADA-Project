@@ -264,3 +264,60 @@
     font-weight: 400;
     padding-bottom: 40px;
 }
+@media screen and (max-width: 576px){
+    .h1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .h3{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .h9{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .h8{
+        width: 100%;
+    }
+    .h10{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .h13,.h17,.h18,.h20{
+        flex-direction: column;
+    }
+    .h14{
+        width: 100%;
+        height: 100%;
+    }
+    .h17,.h20{
+        margin-left: 80px;
+    }
+    .h18,.h23{
+        margin-left: 100px;
+    }
+    .h23{
+        margin-left: 150px;
+    }
+    .h26{
+        gap: 15px;
+    }
+    .h27{
+        flex-direction: column;
+        margin-left: 130px;
+    }
+    .h32{
+        flex-direction: column;
+        margin-left: 40px;
+        margin: 15px;
+    }
+    .h30{
+        padding-left: 30px;
+    }
+    .h34{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
